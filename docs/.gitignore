@@ -1,0 +1,4 @@
+# Ignore docs and keep the main structure and documentation
+*.md
+!README.md
+!index.md
