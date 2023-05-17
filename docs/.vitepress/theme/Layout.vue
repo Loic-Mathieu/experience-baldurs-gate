@@ -1,5 +1,5 @@
 <template>
-  <EBGHeader :nav="site.themeConfig.nav" :sidebar="site.themeConfig.sidebar" />
+  <EBGHeader :nav="site.themeConfig.nav"/>
   <div id="app">
     <div v-if="frontmatter.home">
       <h1>{{ site.title }}</h1>

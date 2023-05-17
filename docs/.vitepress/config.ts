@@ -7,6 +7,11 @@ const { nav, sidebar } = getConfig();
 export default defineConfig({
   title: "L'expérience Baldur's Gate",
   description: "Un carnet de bord",
-  themeConfig: { nav, sidebar }
+  themeConfig: { nav, sidebar },
+  rewrites: {
+    ':nav/:page': ':page',
+    ':nav/:pkg/:page': ':pkg/:page'
+  }
+
 })
 
