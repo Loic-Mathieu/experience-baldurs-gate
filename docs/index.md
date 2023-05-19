@@ -1,4 +1,5 @@
 ---
-home: true
+docType: home
+isIndex: false
 ---
 

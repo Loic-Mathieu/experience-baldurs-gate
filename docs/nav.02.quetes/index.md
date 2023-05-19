@@ -1,0 +1,5 @@
+---
+docType: quetes
+isIndex: true
+---
+

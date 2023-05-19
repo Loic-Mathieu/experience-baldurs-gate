@@ -1,5 +1,50 @@
-
-html {
-  font-family: Arial, Helvetica;
+@font-face {
+    font-family: OPTIAmandaMediumAgency;
+    src: url(./assets/OPTIAmandaMediumAgency.otf);
+    font-weight: bold;
 }
 
+html {
+    font-family: OPTIAmandaMediumAgency, serif;
+    color: #fbcea0;
+
+    background: linear-gradient(rgba(75, 69, 60, 0.9), rgba(63, 58, 50, 0.9)), url("./assets/rock.jpg") no-repeat fixed transparent;
+
+    margin: 0;
+    height: 100%;
+}
+
+#ebg-body {
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+header.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header.title h2 {
+    align-content: center;
+}
+
+header.title img {
+    width: 30%;
+}
+
+.scroll-card {
+    color: black;
+
+    background-image: url("./assets/scroll.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: 0 1px 20px 5px black;
+}
+
+.card {
+    padding: 2%;
+    margin: 2% 10%;
+}
